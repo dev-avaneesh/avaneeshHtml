@@ -1,0 +1,49 @@
+section{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+    animation-name:move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes move {
+    /* from{
+        top: 0;
+        left: 0;
+    }
+    to{
+        top: 0;
+        left: calc(100vw - 200px);
+    } */
+     0%{
+        top: 0;
+        left: 0;
+        transform: scale(0.5);
+     }
+     25%{
+        top: 0;
+        left: calc(100vw - 200px);
+        background-color: red;
+        transform: scale(0.5);
+     }
+     50%{
+        top: 500px;
+        left:calc(100vw - 200px);
+        background-color: blueviolet;
+        transform: scale(0.5);
+     }
+     75%{
+        top: 500px;
+        left: 0;
+        background-color: hotpink;
+        transform: scale(0.5);
+     }
+     100%{
+        top: 0;
+        left: 0;
+        background-color: green;
+        transform: scale(0.5);
+     }
+}

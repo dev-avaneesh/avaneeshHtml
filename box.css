@@ -1,0 +1,25 @@
+
+main{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: content-box;
+}
+section{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 5px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px;
+}
+article{
+    height: auto;
+    width: 200px;
+    background-color: lightblue;
+    padding: 20px 10px 30px;
+    margin: 20px 10px 10px 50px;
+}

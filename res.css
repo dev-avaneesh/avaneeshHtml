@@ -1,0 +1,21 @@
+section{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+}
+/* media queries */
+@media(max-width:1024px){
+    section{
+        background-color: yellow;
+    }
+}
+@media(max-width:768px){
+    section{
+        background-color: red;
+    }
+}
+@media(max-width:425px){
+    section{
+        background-color: green;
+    }
+}

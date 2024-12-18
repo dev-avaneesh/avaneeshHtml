@@ -1,0 +1,21 @@
+ul>li:hover{
+    background-color: black;
+    color: white;
+}
+section::first-line{
+    color: red;
+    background-color: blue;
+}
+ul>li::marker{
+    color: green;
+}
+section::selection{
+    background-color: red;
+}
+section::first-letter{
+    color: yellow;
+    
+}
+h1::before {
+    content: "❤️";
+}

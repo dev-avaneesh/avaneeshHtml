@@ -1,0 +1,50 @@
+ /* greater then ka use krte hai cild selector ke liye */
+ 
+ main>div{
+    width: 400px;
+    height: 300px;
+    color: red;
+    background-color:yellow;
+    
+}
+ /* space ka use hum descendent selector ke liye krte hai */
+ main section{
+    height: 100px;
+    width: 400px;
+    color: black;
+    background-color: red;
+
+}
+/* agar hme kisi element pe lgana hai to pure element name ko define krenge */
+main [title ="HYPERTEXT MARKUP LANGUAGE"]{
+    height: 100px;
+    color: red;
+    background-color:yellow;
+}
+[title="CASCADDING STYLESHEET"]{
+    height: 100px;
+    color: blue;
+    background-color: red;
+}
+/* hum log cap ka symbol use krke hum element ka first letter lekar css properties lga sakte hai */
+[title^="t"]{
+    background-color: green;
+    color: black;
+}
+[title^="m"]{
+    background-color:red;
+    color: black;
+}
+/* kisi bhi element ke name ko select krke * properties lgate hai */
+[title *="to"]{
+    background-color: brown;
+    color: blueviolet;
+}
+[title *="mo"]{
+    background-color: yellowgreen;
+    color:blue;
+}
+[id="my- id"]{
+    background-color: blueviolet;
+    color: blanchedalmond;
+}

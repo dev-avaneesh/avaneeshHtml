@@ -1,0 +1,29 @@
+section{
+    height: 50vh;
+    width: 100vh;
+    background-color: red;
+}
+main{
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
+article{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}
+aside{
+    height: 1em;
+    width: 1em;
+    background-color: black;
+    font-size: 50px;
+}
+html{
+    font-size: 100px;
+}
+footer{
+    height: 1rem;
+    width: 1rem;
+    background-color: brown;
+}
